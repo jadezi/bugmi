@@ -4,9 +4,9 @@ hero:
   desc: 分享😁🐬🎈
   actions:
     - text: 我的博客
-      link: https://u.wangez.cn/blog
+      link: https://u.wangez.cn/b2
     - text: 学习笔记
-      link: /components  
+      link: /notebook  
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 开箱

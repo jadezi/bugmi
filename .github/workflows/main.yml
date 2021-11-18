@@ -28,9 +28,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install Dependencies
-        run: yarn
+        run: yarn install
       
-      - name: BUild
+      - name: Build
         run: yarn docs:build
 
       # deploy server

@@ -8,6 +8,7 @@ export default defineConfig({
   mode: 'site',
   publicPath: '/',
   exportStatic: {},
+  headScripts: [`var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?928b5a4a4bc7b7e04d7f30eefac14771";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();`],
   navs: [
     null, // null 值代表保留约定式生成的导航，只做增量配置
     {

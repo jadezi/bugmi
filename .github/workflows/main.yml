@@ -28,9 +28,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install Dependencies
-        run: yarn
+        run: yarn install
       
-      - name: BUild
+      - name: Build
         run: yarn docs:build
 
       # deploy server
@@ -42,4 +42,4 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} #引用之前创建好的secret
           local_path: './docs-dist/*'  # 对应我们项目build的文件夹路径
-          remote_path: '/www/wwwroot/wangez.cn/'
+          remote_path: '/www/wwwroot/wangez.cn/*'

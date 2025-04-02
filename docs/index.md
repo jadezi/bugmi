@@ -4,7 +4,7 @@ hero:
   desc: 分享😁🐬🎈
   actions:
     - text: 我的博客
-      link: https://u.wangez.cn/b2
+      link: https://blog.wangez.cn/
     - text: 学习笔记
       link: /notebook  
 features:

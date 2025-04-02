@@ -25,7 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v2
-
+      
+      - name: Disable Openssl New features
+        run: set NODE_OPTIONS=-openssl-legacy-provider
+      
       # Runs a single command using the runners shell
       - name: Install Dependencies
         run: yarn install
